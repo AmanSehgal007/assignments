@@ -1,0 +1,13 @@
+<html>
+<head>
+<script>
+function err() {
+   console.log("checked");
+}
+</script>
+</head>
+	<label><input type='checkbox' onchange='err();' checked>gna</label>
+	<label><input type='checkbox' >lpu</label>
+
+
+</html>

@@ -17,6 +17,6 @@
 	case '/': alert(a+ "/" + b + "=" +(a/b));
 	break;
 	
-	default:alert(the number you have entered is wrong");
+	default:alert("the number you have entered is wrong");
 	break;
 	}}

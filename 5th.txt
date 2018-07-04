@@ -1,0 +1,33 @@
+<html>
+<head>
+ <body>
+  <script>
+var rows=10; 
+for(var i=1;i<=rows;i++)
+{
+for(var j=1;j<=i;j++)
+{
+document.write(" * ");
+}
+document.write("<br/>");
+} 
+
+ var input = prompt("Enter the number to get factorial of: ");
+    var result = input;
+    for(var i=1;i < input;i++){
+       result = i * result;
+    }
+    document.write(result);
+	
+	
+	<input type="radio" name="myRadio" onchange="Chan();" value="f" >female
+    <input type="radio" name="myRadios" onchange="Chan();" value="m" >male
+	
+function chan(){
+	console.log("changed");
+	}
+
+	
+  </script>
+ </body>
+</html>
