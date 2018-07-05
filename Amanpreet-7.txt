@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <body>
+  <script>
+ 
+    var a = navigator.cookieEnabled;
+     document.write("Cookies enable in browser :--" +" " + a + "<br>")
+    var b= navigator.appName;
+     document.write("Appname of browser is :--" +" " + b + "<br>")
+    var c = navigator.product;
+     document.write("Product name of browser engine is:--" +" " + c + "<br>")
+	var d = navigator.appCodeName;
+	 document.write("Application code name of browser is:--" +" " + d + "<br>")
+	var e = navigator.appVersion;
+     document.write("Version of browser is :--" +" " + e + "<br>")
+    var f = navigator.language;
+     document.write("language of browser is :--" +" " + f + "<br>")
+ 
+  </script>
+ </body>
+</html>
