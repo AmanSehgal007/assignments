@@ -1,0 +1,36 @@
+<html>
+ <head>
+  <title>json</title>
+ </head>
+  <body>
+   <script>
+ var jsonarray = 
+	[
+		{
+			"name":{
+				"firstname":"Akash",
+				"lastname":"Chouhan"
+			},
+			"location":{
+				"city":"Jalandhar",
+				"state":"Punjab",
+				"country":"India_"
+			}
+		},
+		{
+			"name":{
+				"firstname":"Krishanan",
+				"lastname":"Moorthy"
+			},
+			"location":{
+				"city":"Chennai",
+				"state":"Tamil Nadu",
+				"country":"India_"
+			}
+		}
+	];
+	document.write("_Teacher1:-" + " " + jsonarray[0].name.firstname +" " + jsonarray[0].name.lastname +" " + "lives in"  +" " + jsonarray[0].location.city + "," + jsonarray[0].location.state + "," +  jsonarray[0].location.country + "<br>");  
+    document.write("_Teacher2:-" + " " +jsonarray[1].name.firstname +" " + jsonarray[1].name.lastname +" " + "lives in"  +" " + jsonarray[1].location.city + "," + jsonarray[1].location.state + "," +  jsonarray[1].location.country);
+	</script>
+   </body>
+</html>
